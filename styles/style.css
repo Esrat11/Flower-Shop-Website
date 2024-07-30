@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.open-sens-normal{
+color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 30px;
+font-weight: 800;
+text-align: left;
+} 
+
+/* banner styles */
+.banner-profile-pic{
+    width: 535px;
+    height: 650px; 
+    position: absolute;
+    margin: 50px 340px 0px 1040px;
+
+ }
+.banner-container{
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 35px 0;
+    
+}
+.banner-content{
+    margin: 197px 900px 300px 150px;
+}
+.banner-header{
+  width: 400px; 
+}
+.banner-description{
+    width: 634px;
+    height: 90px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.btn-primary{
+    background-color: rgb(229, 84, 115);
+    border: none;
+    width: 177px;
+    height: 64px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color:white;
+}
+
+/* Featured Styles */
+.featured-content{
+    width: 594px;
+    height: 132px;
+   
+    padding: 130px 150px;
+    text-align: center;
+  
+}
+.featured-title{
+    margin: 10px 500px 24px 500px;
+}
+.featured-des{
+   margin: 10px 250px 10px 400px;
+  
+}
