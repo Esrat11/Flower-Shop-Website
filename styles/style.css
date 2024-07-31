@@ -14,13 +14,11 @@ text-align: left;
     height: 650px; 
     position: absolute;
     margin: 50px 340px 0px 1040px;
-
  }
 .banner-container{
     display: flex; 
     justify-content: space-between;
-    margin: 0 35px 0;
-    
+    margin: 0 35px 0;  
 }
 .banner-content{
     margin: 197px 900px 300px 150px;
@@ -33,7 +31,6 @@ text-align: left;
     height: 90px;
     font-size: 18px;
     font-weight: 400;
-
 }
 .btn-primary{
     background-color: rgb(229, 84, 115);
@@ -50,15 +47,72 @@ text-align: left;
 .featured-content{
     width: 594px;
     height: 132px;
-   
     padding: 130px 150px;
     text-align: center;
-  
 }
 .featured-title{
     margin: 10px 500px 24px 500px;
 }
 .featured-des{
    margin: 10px 250px 10px 400px;
-  
+   color:rgba(39, 39, 39, 0.6);
+}
+.featured-font{
+    font-size: 24px;
+   font-weight: 700;
+   color: rgb(39, 39, 39);
+   text-align: center;
+}
+.background-pic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px ;
+    margin-bottom: 100px;
+    border: 20px 10px;
+}
+.pinkflower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.redflower{
+    border-radius: 300px 300px 0px 0px;
+   background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.yellowflower{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+   background: rgba(71, 125, 17, 0.15);
+}
+.direction{
+   width: 300px;
+   height: 400px;
+   margin: 110px 78px 20px 76px;
+}
+
+/* services */
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 195px;
+    margin-bottom: 128px;
+}
+.service-font{
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.box{
+    margin-top: 20px;
+    margin-bottom: 40px; 
+}
+.pic{
+    width: 80px;
+   height: 90px;
+   margin: auto 110px;
 }
