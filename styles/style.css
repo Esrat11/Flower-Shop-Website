@@ -3,7 +3,7 @@
 .open-sens-normal{
 color: rgb(39, 39, 39);
 font-family: Lato;
-font-size: 30px;
+font-size: 35px;
 font-weight: 800;
 text-align: left;
 } 
@@ -18,7 +18,7 @@ text-align: left;
 .banner-container{
     display: flex; 
     justify-content: space-between;
-    margin: 0 35px 0;  
+    margin: 0 35px 0; 
 }
 .banner-content{
     margin: 197px 900px 300px 150px;
@@ -31,6 +31,7 @@ text-align: left;
     height: 90px;
     font-size: 18px;
     font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
 }
 .btn-primary{
     background-color: rgb(229, 84, 115);
@@ -51,7 +52,7 @@ text-align: left;
     text-align: center;
 }
 .featured-title{
-    margin: 10px 500px 24px 500px;
+    margin: 0px 500px 24px 500px;
 }
 .featured-des{
    margin: 10px 250px 10px 400px;
@@ -73,24 +74,24 @@ text-align: left;
 .pinkflower{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 464px;
-    height: 538px;
+    width: 450px;
+    height: 530px;
 }
 .redflower{
     border-radius: 300px 300px 0px 0px;
    background: rgba(5, 151, 160, 0.15);
-    width: 464px;
-    height: 538px;
+   width: 450px;
+   height: 530px;
 }
 .yellowflower{
-    width: 464px;
-    height: 538px;
+    width: 450px;
+    height: 530px;
     border-radius: 300px 300px 0px 0px;
    background: rgba(71, 125, 17, 0.15);
 }
 .direction{
-   width: 300px;
-   height: 400px;
+   width: 280px;
+   height: 380px;
    margin: 110px 78px 20px 76px;
 }
 
@@ -115,4 +116,27 @@ text-align: left;
     width: 80px;
    height: 90px;
    margin: auto 110px;
+}
+
+/* Main Section */
+.offer-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+.offer-description{
+    width: 594px;
+    height: 228px;
+    margin: 130px 186px 62px 0;
+}
+/* Instagram section */
+.instagram{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-around;  
 }
