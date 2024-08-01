@@ -13,31 +13,34 @@ text-align: left;
     width: 520px;
     height: 630px; 
     position: absolute;
-    margin: 50px 340px 0px 1040px;
+    margin: 50px 0px 0px 1100px;
  }
 .banner-container{
     display: flex; 
     justify-content: space-between;
-    margin: 0 35px 0; 
+    /* margin: 0 35px 0;  */
+    width: 1650px;
+    height: 800px;
 }
 .banner-content{
-    margin: 190px 900px 100px 150px;
+    margin: 100px 500px 100px 100px;
 }
 .banner-header{
-  width: 400px; 
+    width: 400px;
 }
 .banner-description{
-    width: 634px;
-    height: 90px;
+    width: 700px;
+    /* height: 150px; */
     font-size: 18px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.6);
-  
+    margin-right: 500px;
 }
 .btn-primary{
+    margin-top: 150px;
     background-color: rgb(229, 84, 115);
     border: none;
-    width: 177px;
+    width: 170px;
     height: 64px;
     border-radius: 10px;
     font-weight: 700;
@@ -46,18 +49,24 @@ text-align: left;
 }
 
 /* Featured Styles */
-.featured-content{
-    width: 594px;
-    height: 132px;
-    padding: 80px 100px;
+.featured{
+    width: 500px;
+    height: 400px;
+}
+
+.featured-title{
+    margin: 100px 500px 24px 600px;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
-.featured-title{
-    margin: 0px 500px 24px 500px;
-}
 .featured-des{
-   margin: 10px 250px 10px 400px;
+   margin: 20px 0px 10px 800px;
+   padding: 0px 200px;
    color:rgba(39, 39, 39, 0.6);
+   display: flex;
+   justify-content: center ;
+   text-align: center;
 }
 .featured-font{
     font-size: 24px;
