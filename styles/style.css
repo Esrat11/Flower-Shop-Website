@@ -10,8 +10,8 @@ text-align: left;
 
 /* banner styles */
 .banner-profile-pic{
-    width: 535px;
-    height: 650px; 
+    width: 520px;
+    height: 630px; 
     position: absolute;
     margin: 50px 340px 0px 1040px;
  }
@@ -21,7 +21,7 @@ text-align: left;
     margin: 0 35px 0; 
 }
 .banner-content{
-    margin: 197px 900px 300px 150px;
+    margin: 190px 900px 100px 150px;
 }
 .banner-header{
   width: 400px; 
@@ -32,6 +32,7 @@ text-align: left;
     font-size: 18px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.6);
+  
 }
 .btn-primary{
     background-color: rgb(229, 84, 115);
@@ -48,7 +49,7 @@ text-align: left;
 .featured-content{
     width: 594px;
     height: 132px;
-    padding: 130px 150px;
+    padding: 80px 100px;
     text-align: center;
 }
 .featured-title{
@@ -97,38 +98,29 @@ text-align: left;
 
 /* services */
 .service-container{
+   margin: 86px 175px 87px 175px;
+}
+.service-images{
     display: flex;
     justify-content: space-around;
-    margin-top: 195px;
-    margin-bottom: 128px;
+    padding: 50px;
 }
-.service-font{
-    color: rgba(39, 39, 39, 0.8);
+.service-description{
     font-size: 24px;
     font-weight: 600;
+    color: rgba(39, 39, 39, 0.8);
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
-.box{
-    margin-top: 20px;
-    margin-bottom: 40px; 
-}
-.pic{
-    width: 80px;
-   height: 90px;
-   margin: auto 110px;
-}
-
 /* Main Section */
 .offer-container{
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
     margin-top: 128px;
     margin-bottom: 128px;
-}
-.offer-description{
-    width: 594px;
-    height: 228px;
-    margin: 130px 186px 62px 0;
 }
 /* Instagram section */
 .instagram{
@@ -138,5 +130,71 @@ text-align: center;
 }
 .box{
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around; 
+    width: 342px;
+   height: 396px;
+   margin: 0 150px;
+   gap:24px;
+}
+
+/* Footer Section */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(../images/Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+    margin: 128px 200px 128px 150px;
+
+}
+.input{
+    width: 600px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    border: none;   
+    margin: 0px 200px;
+}
+.banner-description{
+   margin: 0 280px;
+}
+
+/* copywrite */
+.copywrite{
+background: rgb(17, 16, 16);
+width: 1670px;
+height: 440px;
+}
+.copywrite-title{
+    display: flex;
+    justify-content: center;
+ margin: 100px 150px 20px 160px;
+ padding: 100px 100px 20px 100px;
+ color: rgb(229, 84, 115);
+}
+span{
+    color:white;
+}
+.copywrite-description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0px 200px 10px 550px;
+}
+.copywrite-message{
+    color:rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
