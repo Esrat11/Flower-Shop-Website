@@ -3,41 +3,34 @@
 .open-sens-normal{
 color: rgb(39, 39, 39);
 font-family: Lato;
-font-size: 35px;
+font-size: 2rem;
 font-weight: 800;
-text-align: left;
 } 
 
 /* banner styles */
 .banner-profile-pic{
-    width: 520px;
-    height: 630px; 
-    position: absolute;
-    margin: 50px 0px 0px 1100px;
+ width: 450px;
+ height: 400px;
  }
 .banner-container{
     display: flex; 
-    justify-content: space-between;
-    /* margin: 0 35px 0;  */
-    width: 1650px;
-    height: 800px;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .banner-content{
-    margin: 100px 500px 100px 100px;
-}
-.banner-header{
-    width: 400px;
+  margin: 0 auto;
+  width: 800px;
+  height: 700px;
 }
 .banner-description{
-    width: 700px;
-    /* height: 150px; */
-    font-size: 18px;
+    margin: 0 auto;
+    font-size: 1.25rem;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.6);
-    margin-right: 500px;
-}
+    margin-bottom: 50px;
+    }
 .btn-primary{
-    margin-top: 150px;
     background-color: rgb(229, 84, 115);
     border: none;
     width: 170px;
@@ -50,92 +43,84 @@ text-align: left;
 
 /* Featured Styles */
 .featured{
-    width: 500px;
-    height: 400px;
-}
-
-.featured-title{
-    margin: 100px 500px 24px 600px;
-    display: flex;
-    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
     text-align: center;
 }
-.featured-des{
-   margin: 20px 0px 10px 800px;
-   padding: 0px 200px;
-   color:rgba(39, 39, 39, 0.6);
-   display: flex;
-   justify-content: center ;
-   text-align: center;
-}
 .featured-font{
-    font-size: 24px;
+    font-size: 1.5rem;
    font-weight: 700;
    color: rgb(39, 39, 39);
    text-align: center;
 }
-.background-pic{
+.cards{
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px ;
     margin-bottom: 100px;
-    border: 20px 10px;
 }
-.pinkflower{
-    border-radius: 300px 300px 0px 0px;
+.card-1{
+    border-radius: 300px 300px 0 0;
     background: rgba(167, 33, 98, 0.15);
-    width: 450px;
-    height: 530px;
+    width: 420px;
+    height: 500px;
 }
-.redflower{
+.card-2{
     border-radius: 300px 300px 0px 0px;
    background: rgba(5, 151, 160, 0.15);
-   width: 450px;
-   height: 530px;
+   width: 420px;
+   height: 500px;
 }
-.yellowflower{
-    width: 450px;
-    height: 530px;
+.card-3{
+    width: 420px;
+    height: 500px;
     border-radius: 300px 300px 0px 0px;
    background: rgba(71, 125, 17, 0.15);
 }
 .direction{
-   width: 280px;
-   height: 380px;
+   width: 250px;
+   height: 350px;
    margin: 110px 78px 20px 76px;
 }
 
 /* services */
 .service-container{
-   margin: 86px 175px 87px 175px;
+   max-width: 1440px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
 }
-.service-images{
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
+.card-4{
+    width: 400px;
+    text-align: center;
 }
 .service-description{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: rgba(39, 39, 39, 0.8);
     text-align: center;
-    display: flex;
-    justify-content: space-around;
 }
 /* Main Section */
 .offer-container{
     display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
+    justify-content: space-around;
+    /* text-align: center;
+    align-items: center; */
     margin-top: 128px;
-    margin-bottom: 128px;
+}
+.offer-content{
+width: 550px;
+height: 220px;
+text-align: center;
+}
+.off{
+    color: rgb(229, 84, 115);
 }
 /* Instagram section */
 .instagram{
-display: flex;
-justify-content: center;
+max-width: 600px;
 text-align: center;
+margin: 0 auto;
 }
 .box{
     display: flex;
@@ -166,9 +151,6 @@ text-align: center;
     padding: 10px;
     border: none;   
     margin: 0px 200px;
-}
-.banner-description{
-   margin: 0 280px;
 }
 
 /* copywrite */
