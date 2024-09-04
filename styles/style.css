@@ -10,7 +10,7 @@ font-weight: 800;
 /* banner styles */
 .banner-profile-pic{
  width: 450px;
- height: 400px;
+ height: 450px;
  }
 .banner-container{
     display: flex; 
@@ -176,3 +176,69 @@ span{
     font-size: 1rem;
     text-align: center;
 }
+.none{
+    display: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width:640px){
+    .banner-container,.cards,.service-container,.box,.offer-container{
+        flex-direction: column;
+    }
+    .hide{
+        display: none;
+    }
+     .insta-section, .footer-container,.copywrite{
+       max-width: 580px;
+       margin: 10px auto;
+       text-align: left;
+     }
+     .flower-size{
+    width: 350px;
+    height: 450px;
+    align-items: left;
+     }
+    .banner-container{
+        margin: 0 auto;
+        width: 600px;
+        height: 700px;
+    }
+  
+    .banner-profile-pic, .card-1, .card-2, .card-3, .card-4, .roses{
+        width: 300px;
+        height: 300px;
+    }
+    .direction{
+        width: 150px;
+        height: 150px;
+    }
+    .input{
+        width: 200px;
+        height: 20px;
+    }
+   .banner-description{
+    font-size: 1rem;
+    text-wrap: wrap;
+   }
+    .banner-content,.featured, .featured-font, .service-description, .offer-content, .instagram,.footer-title{
+        font-size: 1.25rem; 
+    }
+    .featured, .offer-content, .instagram{
+        text-align: left;
+        margin: 0 auto;
+    }
+    .btn-primary{
+        width: 150px;
+        height: 50px;
+    }
+    .cards{
+        width: 300px;
+        height: 1000px;
+    }
+    .copywrite{
+
+    }
+
+}
+ 
